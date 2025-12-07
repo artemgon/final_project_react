@@ -1,0 +1,218 @@
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hotel-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hotel-title h1 {
+  font-family: 'Qwigley', cursive;
+  font-size: 4.5rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #FFD700;
+  margin: 0;
+}
+
+.main-image {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.main-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-section {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  color: #575074;
+  margin: 2rem 0 1rem;
+  font-weight: normal;
+}
+
+.first-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.large-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2.5rem 0;
+}
+
+.room-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.room-image-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.room-image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.room-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #575074;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+.room-title {
+  color: white;
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.reserve-button {
+  background-color: #575074;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reserve-button:hover {
+  background-color: #464060;
+}
+
+.footer {
+  background-color: #575074;
+  color: white;
+  margin-top: 4rem;
+}
+
+.footer-top {
+  padding: 2rem;
+  text-align: center;
+}
+
+.follow-text {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+  font-size: 0.9rem;
+}
+
+.newsletter-button {
+  background-color: #FFD700;
+  color: #575074;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+  background-color: #e6c200;
+}
+
+.footer-bottom {
+  background-color: #464060;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .hotel-title h1 {
+    font-size: 3.5rem;
+  }
+  
+  .content {
+    padding: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+  
+  .room-overlay {
+    left: 10px;
+    bottom: 10px;
+    padding: 8px 16px;
+  }
+  
+  .room-title {
+    font-size: 1rem;
+  }
+  
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .newsletter input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
