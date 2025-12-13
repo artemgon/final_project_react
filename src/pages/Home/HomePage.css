@@ -1,0 +1,502 @@
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hotel-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hotel-title h1 {
+  font-family: 'Qwigley', cursive;
+  font-size: 4.5rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #FFD700;
+  margin: 0;
+}
+
+.main-image {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.main-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-section {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  color: #000000;
+  margin: 2rem 0 1rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.first-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.fixed-width-text {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.large-text {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2.5rem auto;
+  max-width: 800px;
+}
+
+.room-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.room-image-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.room-image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.room-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #575074;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+.room-title {
+  color: white;
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.reserve-button {
+  background-color: #575074;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+  border-radius: 4px;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reserve-button:hover {
+  background-color: #464060;
+}
+
+/* Стилі для підписки на розсилку */
+.newsletter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter form {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+  font-size: 0.9rem;
+  min-width: 0;
+}
+
+.newsletter input:focus {
+  outline: none;
+  border-color: #FFD700;
+  box-shadow: 0 0 0 1px rgba(255, 215, 0, 0.3);
+}
+
+.newsletter input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.newsletter-button {
+  background-color: #FFD700;
+  color: #575074;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: 60px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.newsletter-button:hover:not(:disabled) {
+  background-color: #e6c200;
+}
+
+.newsletter-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
+.newsletter-error {
+  color: #ff6b6b;
+  font-size: 0.8rem;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.newsletter-success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+  animation: fadeIn 0.5s ease;
+}
+
+.success-icon {
+  color: #4CAF50;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.success-text {
+  color: #4CAF50;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Футер стилі */
+.footer {
+  background-color: #575074;
+  color: white;
+  margin-top: 4rem;
+  overflow-x: hidden;
+}
+
+.footer-top {
+  padding: 2rem;
+  text-align: center;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 100%;
+}
+
+.follow-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  width: 100%;
+}
+
+.follow-text {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.follow-icon {
+  color: white;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.follow-icon:hover {
+  color: #FFD700;
+}
+
+.follow-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom {
+  background-color: #464060;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* iPhone 14 Pro Max specific (430px width) */
+@media (max-width: 430px) {
+  .content {
+    padding: 1.5rem;
+  }
+  
+  .hotel-title h1 {
+    font-size: 3.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+  
+  .newsletter {
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .newsletter form {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .newsletter input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border-radius: 8px;
+  }
+  
+  .newsletter-button {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  
+  .follow-section {
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0 10px;
+  }
+  
+  .follow-text {
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 0;
+  }
+  
+  .footer-top {
+    padding: 2rem 1rem;
+  }
+  
+  .footer-bottom {
+    padding: 1.5rem 1rem;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    padding: 0 5px;
+  }
+  
+  .newsletter-success {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  .reserve-button {
+    padding: 12px 35px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hotel-title h1 {
+    font-size: 3.5rem;
+  }
+  
+  .content {
+    padding: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+  
+  .fixed-width-text,
+  .large-text {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .divider {
+    max-width: 100%;
+    margin: 2.5rem 1rem;
+  }
+  
+  .room-section {
+    max-width: 100%;
+  }
+  
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .newsletter form {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .newsletter input {
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+  }
+  
+  .newsletter-button {
+    width: 100%;
+  }
+  
+  .footer-top {
+    padding: 1.5rem;
+  }
+  
+  .reserve-button {
+    padding: 12px 35px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 768px) {
+  .newsletter form {
+    flex-direction: row;
+  }
+  
+  .newsletter input {
+    font-size: 0.9rem;
+  }
+  
+  .newsletter-button {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hotel-title h1 {
+    font-size: 3rem;
+  }
+  
+  .section-title {
+    font-size: 1.4rem;
+  }
+  
+  .newsletter input {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+  .newsletter-button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  
+  .follow-text {
+    font-size: 0.9rem;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.75rem;
+  }
+  
+  .reserve-button {
+    padding: 12px 30px;
+    font-size: 0.95rem;
+  }
+}

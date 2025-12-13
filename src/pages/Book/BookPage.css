@@ -1,0 +1,400 @@
+.book-page {
+  font-family: 'Georgia', serif;
+}
+
+.book-hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f9f5f0;
+}
+
+.book-hero h1 {
+  font-family: 'Forum', cursive;
+  font-size: 3.5rem;
+  color: #F9A322;
+  margin: 0;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.book-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.booking-form {
+  margin-bottom: 4rem;
+}
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.form-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.form-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.section-title {
+  font-family: 'Forum', cursive;
+  font-size: 2rem;
+  color: #575074;
+  margin: 0 0 2rem 0;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem; 
+  color: #333;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #575074;
+  box-shadow: 0 0 0 2px rgba(87, 80, 116, 0.1);
+}
+
+.dates-section {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.date-group {
+  flex: 1;
+}
+
+.date-title {
+  font-family: 'Forum', cursive;
+  font-size: 1.3rem;
+  color: #575074;
+  margin: 0 0 1rem 0;
+  font-weight: normal;
+}
+
+.date-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.payment-section {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  margin-top: 2rem;
+}
+
+.payment-title {
+  font-family: 'Forum', cursive;
+  font-size: 1.5rem;
+  color: #575074;
+  margin: 0 0 1.5rem 0;
+  font-weight: normal;
+}
+
+.payment-select {
+  width: 100%;
+  padding: 10px 12px; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem; 
+  margin-bottom: 1rem;
+  background-color: white;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.payment-select:focus {
+  outline: none;
+  border-color: #575074;
+  box-shadow: 0 0 0 2px rgba(87, 80, 116, 0.1);
+}
+
+.payment-note {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin: 1rem 0 0 0;
+  line-height: 1.5;
+}
+
+.book-submit-button {
+  background-color: #575074;
+  color: white;
+  border: none;
+  padding: 14px 40px; 
+  font-size: 1.1rem; 
+  font-family: 'Georgia', serif;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.book-submit-button:hover {
+  background-color: #464060;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(87, 80, 116, 0.3);
+}
+
+.book-submit-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Стилі для повідомлення про успіх */
+.success-message {
+  text-align: center;
+  background-color: #f9f5f0;
+  padding: 3rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  border: 2px solid #F9A322;
+}
+
+.success-icon {
+  font-size: 4rem;
+  color: #4CAF50;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.success-message h2 {
+  font-family: 'Forum', cursive;
+  font-size: 2.5rem;
+  color: #575074;
+  margin: 0 0 1rem 0;
+}
+
+.success-message p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.booking-details {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  text-align: left;
+  border: 1px solid #eee;
+}
+
+.booking-details h3 {
+  font-family: 'Forum', cursive;
+  color: #575074;
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.booking-details p {
+  margin: 0.5rem 0;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.booking-details p:last-child {
+  border-bottom: none;
+}
+
+.new-booking-button {
+  background-color: #F9A322;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  font-family: 'Georgia', serif;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.new-booking-button:hover {
+  background-color: #e69119;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(249, 163, 34, 0.3);
+}
+
+.booking-image-section {
+  margin-top: 4rem;
+}
+
+.booking-image-section img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .book-hero h1 {
+    font-size: 2.8rem;
+  }
+  
+  .book-content {
+    padding: 2rem 1rem;
+  }
+  
+  .form-section {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .form-row {
+    flex-direction: column;
+    gap: 1rem; 
+  }
+  
+  .dates-section {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .date-title {
+    font-size: 1.2rem;
+  }
+  
+  .payment-title {
+    font-size: 1.3rem;
+  }
+  
+  .booking-image-section img {
+    height: 300px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .date-group input,
+  .payment-select {
+    padding: 9px 11px;
+    font-size: 0.9rem;
+  }
+  
+  .book-submit-button {
+    padding: 13px 35px;
+    font-size: 1rem;
+  }
+  
+  .success-message {
+    padding: 2rem;
+  }
+  
+  .success-message h2 {
+    font-size: 2rem;
+  }
+  
+  .success-icon {
+    font-size: 3rem;
+  }
+  
+  .booking-details {
+    padding: 1.5rem;
+  }
+  
+  .new-booking-button {
+    padding: 13px 35px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-hero h1 {
+    font-size: 2.3rem;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+  
+  .book-submit-button {
+    padding: 12px 30px;
+    font-size: 0.95rem;
+  }
+  
+  .booking-image-section img {
+    height: 250px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .date-group input,
+  .payment-select {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+  
+  .success-message {
+    padding: 1.5rem;
+  }
+  
+  .success-message h2 {
+    font-size: 1.8rem;
+  }
+  
+  .new-booking-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    width: 100%;
+  }
+}
